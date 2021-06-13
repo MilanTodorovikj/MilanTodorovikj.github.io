@@ -1,0 +1,294 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.NameInNav{
+    color: lightgray;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 300px;
+}
+nav{
+    background-color: teal;
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+footer{
+    display: block;
+    padding-bottom: 20px;
+}
+footer ul li{
+    list-style-type: none;
+    margin-top: 2px;
+}
+nav ul{
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    margin-left: 50px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    box-sizing: content-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 90%;
+    text-align: center;
+    margin-right: -6px;
+}
+nav ul li.current{
+    background-image: linear-gradient(teal,moccasin);
+}
+nav ul li:hover{
+    opacity: 0.7;
+    background-image: linear-gradient(teal,moccasin);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+}
+.content{
+    padding-top: 80px;
+    background-color: moccasin;
+    box-sizing: border-box;
+    /*height: 600px;*/
+    padding-right: 60px;
+}
+#PhotoOfMe{
+    width: 250px;
+    height: 375px;
+    float: left;
+    padding-left: 80px;
+    margin-right: 50px;
+}
+footer{
+    background-color: teal;
+    position: relative;
+}
+footer ul{
+    padding-top: 30px;
+    margin: 0px;
+    color: white;
+    padding-left: 70%;
+    margin-right: 80px;
+    font-size: 13px;
+}
+.info{
+    margin-bottom: 30px;
+}
+.info2{
+    margin-bottom: 10px;
+}
+.Biography{
+    font-size: 35px;
+    margin-bottom: 14px;
+    color: teal;
+
+}
+.main{
+    text-align: justify;
+}
+.main span{
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+}
+.content div span:not(.Biography){
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+#Interesi{
+    display: inline-block;
+    /*width: 30%;*/
+}
+.content div #Interesi div{
+    padding-left: -10px;
+}
+#Interesi div{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    color: teal;
+}
+#Interesi li{
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+#Interesi ul{
+    list-style-type: square;
+}
+#Vestini{
+    display: inline-block;
+    /*width: 30%;*/
+    /*margin-top: 35px;*/
+}
+#Vestini li{
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+#Vestini ul{
+    list-style-type: square;
+}
+#Vestini div{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    color: teal;
+}
+.del{
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 100px;
+}
+.Social{
+    float:left;
+    clear: both;
+    margin-top: 20px;
+    padding-left: 80px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.outlook{
+    height: 40px;
+    width: 40px;
+}
+.outlook:hover{
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.gmail{
+    height: 40px;
+    width: 45px;
+}
+.gmail:hover{
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.facebook{
+    height: 42px;
+    width: 40px;
+}
+.facebook:hover{
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.fa{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 40px;
+    height:40px;
+    margin-right: 15px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.Social a{
+    display: inline-block;
+}
+.mail_footer{
+    text-decoration: none;
+    color: white;
+}
+.Obrazovanie_headings{
+    font-size: 35px;
+    margin-bottom: 14px;
+    color: teal;
+}
+.Pomestuvanje{
+    margin-left: 80px;
+}
+.Pomestuvanje ul li{
+    line-height: 1.4;
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+.Pomestuvanje:last-child{
+    padding-bottom: 50px;
+}
+.Hobbies_headings{
+    font-size: 35px;
+    margin-bottom: 14px;
+    color: teal;
+}
+.travelling_photos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.slika1{
+    height: 275px;
+    display: inline-block;
+    width: 16%;
+    margin-bottom: 10px;
+}
+.travelling{
+    padding-left: 80px;
+}
+.sport_photos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.sport_photos img:nth-child(n){
+    width: 19%;
+    height: 275px;
+}
+.travelling_photos img:hover{
+    width: 18%;
+    height: 300px;
+    margin-top: -12.5px;
+}
+.travelling ul li{
+    line-height: 1.4;
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+.igri{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+.content .travelling span.games_photos{
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.content .travelling span.games_photos img{
+    display: inline-block;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: -55px;
+}
+.sport_photos img:hover{
+    width: 23%;
+    height: 300px;
+    margin-top: -12.5px;
+}
+.content .travelling span.games_photos img:hover{
+    display: inline-block;
+    height: 375px;
+    width: 250px;
+    margin-left: 175px;
+    margin-top: -80px;
+}
