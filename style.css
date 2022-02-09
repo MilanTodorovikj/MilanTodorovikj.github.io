@@ -1,22 +1,25 @@
 body{
-    font-family: sans-serif;
-    margin: 0px;
+    font-family: sans-serif !important;
+    margin: 0px !important;
+    height: 100vh;
+    background: teal !important;
 }
 .NameInNav{
-    color: lightgray;
-    font-weight: bolder;
-    font-size: 20px;
-    display: inline-block;
-    margin-left: 70px;
-    margin-right: 300px;
+    color: lightgray !important;
+    font-weight: bolder !important;
+    font-size: 20px !important;
+    /*display: inline-block !important;*/
+    /*width: 15%;*/
+    margin-left: 3% !important;
+    /*margin-right: 300px !important;*/
 }
 nav{
-    background-color: teal;
-    width: 100%;
-    height: 50px;
-    margin-top: -20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    background-color: teal !important;
+    width: 100% !important;
+    height: 50px !important;
+    /*margin-top: -20px !important;*/
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 footer{
     display: block;
@@ -27,61 +30,74 @@ footer ul li{
     margin-top: 2px;
 }
 nav ul{
-    display: inline-block;
-    height: 100%;
-    text-align: center;
-    margin-left: 50px;
+    display: inline-block !important;
+    height: 100% !important;
+    text-align: center !important;
+    width: 70%;
+    margin-left: 10% !important;
 }
 nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    box-sizing: content-box;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 90%;
-    text-align: center;
-    margin-right: -6px;
+    list-style-type: none !important;
+    display: inline-block !important;
+    box-sizing: content-box !important;
+    width: 15%;
+    /*padding-left: 3% !important;*/
+    /*padding-right: 3% !important;*/
+    height: 90% !important;
+    text-align: center !important;
+    margin-right: -6px !important;
 }
 nav ul li.current{
-    background-image: linear-gradient(teal,moccasin);
+    background-image: linear-gradient(teal,moccasin) !important;
+    height: 40px  !important;
 }
 nav ul li:hover{
-    opacity: 0.7;
-    background-image: linear-gradient(teal,moccasin);
+    opacity: 0.7 !important;
+    background-image: linear-gradient(teal,moccasin) !important;
+    height: 40px !important;
 }
 nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
+    text-decoration: none !important;
+    color: white !important;
+    font-weight: bolder !important;
+    font-size: 20px !important;
     /*padding-left: 50px;*/
     /*padding-right: 50px;*/
 }
 .content{
-    padding-top: 80px;
-    background-color: moccasin;
-    box-sizing: border-box;
+    padding-top: 20px !important;
+    background-color: moccasin !important;
+    box-sizing: border-box !important;
     /*height: 600px;*/
-    padding-right: 60px;
+    padding-right: 60px !important;
 }
 #PhotoOfMe{
-    width: 250px;
+    width: 300px;
     height: 375px;
     float: left;
-    padding-left: 80px;
+    padding-left: 50px;
     margin-right: 50px;
 }
 footer{
     background-color: teal;
     position: relative;
+    display: flex;
+    align-content: space-between;
 }
+
 footer ul{
     padding-top: 30px;
     margin: 0px;
     color: white;
-    padding-left: 70%;
-    margin-right: 80px;
+    padding-left: 4%;
+    /*margin-right: 80px;*/
+    display: inline-block;
+    width: 45%;
     font-size: 13px;
+}
+
+footer .endList{
+    text-align: end;
 }
 .info{
     margin-bottom: 30px;
@@ -204,10 +220,16 @@ footer ul{
 .Social a{
     display: inline-block;
 }
+
 .mail_footer{
     text-decoration: none;
     color: white;
 }
+.mail_footer:hover{
+    text-decoration: none;
+    color: white;
+}
+
 .Obrazovanie_headings{
     font-size: 35px;
     margin-bottom: 14px;
@@ -229,6 +251,12 @@ footer ul{
     margin-bottom: 14px;
     color: teal;
 }
+
+.projects-text{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 .travelling_photos{
     display: flex;
     justify-content: space-evenly;
